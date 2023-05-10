@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 29px;
-    font-family: 'Nunito', sans-serif;
-    background-color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "nunito", sans-serif;
+  color: #234cad;
 }
+
+section {
+  margin-top: 150px;
+}
+
 
 .navbar {
     position: absolute;
@@ -18,6 +20,7 @@
     left: 100px;
     right: 100px;
     background-color: #ffff;
+    margin-bottom: 100px;
 }
 
 .navbar-nav {
@@ -52,3 +55,164 @@
     border-radius: 25px;
     background-color: #F2F6FF;
 }
+
+
+/* Product-features1  */
+.product-features1 .box {
+    width: 570px;
+    height: 570px;
+    padding: 19px;
+    margin: 100px 0 0 100px;
+    background-color: #F2F6FF;
+    border-radius: 60px;
+  }
+  
+  .product-features1 .content h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+  }
+  
+  .product-features1 .content p {
+    font-weight: 450;
+    font-size: 15px;
+    line-height: 26px;
+  }
+  
+  .product-features1 .card-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  
+  .product-features1 h3{
+    padding-top: 15px;
+    padding-left: 25px;
+  }
+  
+  .andrewjohnson {
+    height: 27px;
+    left: 0%;
+    right: 30.8%;
+    top: calc(50% - 27px/2 - 15px);
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+  }
+  
+  .waktu {
+    height: 17px;
+    left: 84.03%;
+    right: 0%;
+    top: calc(50% - 17px/2 - 20px);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 80px;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+  }
+  
+  .keterangan1 {
+    height: 27px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 27px/2 + 15px);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  
+  .danielluke {
+    height: 21px;
+    left: 0%;
+    right: 52.22%;
+    top: calc(50% - 21px/2 - 12px);
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+  } 
+  
+  .waktu1 {
+    height: 13px;
+    left: 83.04%;
+    right: 0%;
+    top: calc(50% - 13px/2 - 16px);
+    margin-left: 90px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+  }
+  
+  .keterangan2 {
+    height: 21px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 21px/2 + 12px);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  
+  .markclarke {
+    height: 16px;
+    left: 0%;
+    right: 52.52%;
+    top: calc(50% - 16px/2 - 9px);
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+  } 
+
+  .keterangan3 {
+    height: 16px;
+    left: 0%;
+    right: -0.72%;
+    top: calc(50% - 16px/2 + 9px);
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 15px;
+  }
+  
+  .waktu2 {
+    height: 10px;
+    left: 84.21%;
+    right: 0%;
+    top: calc(50% - 10px/2 - 12px);  
+    margin-left: 80px;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 10px;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+  }
+
+  .btn-outline-hero {
+    border: 2px solid #234cad;
+    border-radius: 35px;
+    background-color: transparent;
+    padding: 12px 30px;
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  @media (min-width: 992px) {
+    .product-features1 .content {
+      padding: 100px;
+    }
+  }
+  
+  @media (max-width: 460px) {
+    .product-features1 .content h1 {
+      font-size: 38px;
+    }
+  }
+  
+  @media (max-width: 300px) {
+    .product-features1 .content h1 {
+      font-size: 20px;
+    }
+  }
