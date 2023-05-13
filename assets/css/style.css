@@ -4,11 +4,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 29px;
-    font-family: 'Nunito', sans-serif;
-    background-color: #FFFFFF;
+    font-family: "nunito", sans-serif;
+    color: #234cad;
+}
+
+section {
+    margin-top: 150px;
 }
 
 .navbar {
@@ -18,9 +19,12 @@
     left: 100px;
     right: 100px;
     background-color: #ffff;
+    margin-bottom: 100px;
 }
 
 .navbar-nav {
+    font-size: 18px;
+    font-weight: 600;
     top: calc(50% - 29px/2);
 }
 
@@ -35,7 +39,6 @@
 .btn {
     font-weight: 600;
     color: #234CAD;
-
 }
 
 .btn-border {
@@ -52,3 +55,173 @@
     border-radius: 25px;
     background-color: #F2F6FF;
 }
+
+.jb-banner {
+    height: 575px;
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 60px;
+    background-color: #F2F6FF;
+}
+
+.jb-txt {
+    padding-left: 70px;
+}
+
+.txt-bs {
+    padding-top: 108px;
+    line-height: 56px;
+    width: 375px;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.txt-cm {
+    width: 395px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.txt-jd{
+    font-size: 16px;
+    font-weight: 700; 
+    Line-height: 21px;
+}
+
+.txt-sj{
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 2px;
+}
+
+.btn-app {
+    Width: 200px;
+    Height: 65px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    border: 2px solid #234CAD;
+    border-radius: 32.5px;
+    font-size: 22px; 
+    line-height: 36px;
+}
+
+.card {
+    background-color: #ffff;
+    border-color: #ffff;
+    border-radius: 20px;
+}
+
+.card1 {
+    width: 75px;
+    height: 75px;
+    margin-top: 30px;
+}
+
+.card2 {
+    Width: 350px;
+    Height: 100px;
+    z-index: 2;
+}
+
+.shadow {
+    height: 150px;
+    width: 430px;
+    left: 550px;
+    top: 330px;
+    position: absolute;
+    background: linear-gradient(34.55deg, #234CAD 9.21%, rgba(35, 76, 173, 0.5) 110.31%);
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    filter: blur(67.957px);
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.card3 {
+    Width: 276px;
+    Height: 160px;
+}
+
+.card4 {
+    position: absolute;
+    Width: 350px;
+    height: 100px;
+    top: 540px;
+    margin-left: 100px;
+}
+
+.card4::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(34.55deg, #234CAD 9.21%, rgba(35, 76, 173, 0.5) 110.31%);
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    filter: blur(67.957px);
+    border-radius: 25px;
+    z-index: -1;
+}
+
+.card5 {
+    background-color: #ffff;
+    border-radius: 20px;
+    border-color: #ffff;
+    margin-left: 100px;
+    margin-top: 75px;
+}
+
+.card6 {
+    width: 75px;
+    height: 75px;
+    margin-left: 80px;
+    margin-top: 155px;
+    padding-top: 4px;
+}
+
+.card6::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: -100px;
+    background: linear-gradient(34.55deg, #234CAD 9.21%, rgba(35, 76, 173, 0.5) 110.31%);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    filter: blur(67.957px);
+    border-radius: 20px;
+    z-index: -1;
+}
+
+/* @media screen and (max-width: 1200px){
+    .col{
+        width: 50%;
+    }
+
+    .jumbotron{
+        width: 100%;
+    }
+
+    .card4{
+        position: relative;
+        margin: 0;
+    }
+
+    .card2{
+        position: static;
+    }
+
+    .card2::before{
+        visibility: hidden;
+    }
+
+    .navbar{
+        width: 100%;
+    }
+
+    .shadow{
+        visibility: hidden;
+    }
+} */
