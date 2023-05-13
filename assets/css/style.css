@@ -218,12 +218,6 @@ section {
   font-size: 15px;
 }
 
-.product-features1 .card-title {
-  font-weight: 700;
-  line-height: 25px;
-  font-size: 20px;
-}
-
 .product-features1 h3{
   padding-left: 25px;
   padding-top: 15px;
@@ -357,7 +351,6 @@ section {
 }
 
 /* Product features 2  */
-
 .product-features2 .content h1 {
   text-align: center;
   font-weight: 700;
@@ -370,4 +363,57 @@ section {
   font-weight: 450;
   line-height: 26px;
   font-size: 15px;
+}
+
+.product-features2 .hero {
+  background-color: #f2f6ff;
+  border-radius: 60px;
+  margin-bottom: 50px;
+}
+
+.product-features2 .content {
+  padding: 0 100px 100px;
+}
+
+.spencers {
+  height: 21px;
+  left: 0%;
+  right: 34.83%;
+  line-height: 21px;
+  top: calc(50% - 21px/2 - 12px);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.send {
+  height: 21px;
+  left: 0%;
+  right: 0%;
+  line-height: 21px;
+  top: calc(50% - 21px/2 + 12px);
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.time {
+  height: 13px;
+  left: 83.48%;
+  right: 0%;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  margin-left: 80px;
+  top: calc(50% - 13px/2 - 16px);
+  font-family: 'Nunito';
+  font-style: normal;
+}
+
+.date {
+  height: 20px;
+  left: 0%;
+  right: 0%;
+  line-height: 21px;
+  top: calc(50% - 21px/2 + 12px);
+  font-weight: 400;
+  font-size: 12px;
 }
