@@ -196,162 +196,178 @@ section {
     z-index: -1;
 }
 
-/* Product-features1  */
+/* Product features 1  */
 .product-features1 .box {
-    width: 570px;
-    height: 570px;
-    border-radius: 60px;
-    padding: 19px;
-    margin: 100px 0 0 100px;
-    background-color: #F2F6FF;
+  width: 570px;
+  height: 570px;
+  border-radius: 60px;
+  padding: 19px;
+  margin: 100px 0 0 100px;
+  background-color: #F2F6FF;
+}
+
+.product-features1 .content h1 {
+  font-weight: 700;
+  line-height: 50px;
+  font-size: 45px;
+}
+
+.product-features1 .content p {
+  font-weight: 450;
+  line-height: 26px;
+  font-size: 15px;
+}
+
+.product-features1 .card-title {
+  font-weight: 700;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+.product-features1 h3{
+  padding-left: 25px;
+  padding-top: 15px;
+}
+
+.andrewjohnson {
+  height: 27px;
+  left: 0%;
+  right: 30.8%;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+  top: calc(50% - 27px/2 - 15px);
+}
+
+.waktu1 {
+  height: 17px;
+  left: 84.03%;
+  right: 0%;
+  font-size: 12px;
+  line-height: 16px;
+  margin-left: 80px;
+  mix-blend-mode: normal;
+  top: calc(50% - 17px/2 - 20px);
+  font-weight: 400;
+  opacity: 0.75;
+}
+
+.keterangan1 {
+  height: 27px;
+  left: 0%;
+  right: 0%;
+  line-height: 25px;
+  top: calc(50% - 27px/2 + 15px);
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.danielluke {
+  height: 21px;
+  left: 0%;
+  right: 52.22%;
+  font-size: 17px;
+  line-height: 20px;
+  top: calc(50% - 21px/2 - 12px);
+  font-weight: 700;
+} 
+
+.waktu2 {
+  height: 13px;
+  left: 83.04%;
+  right: 0%;
+  line-height: 13px;
+  mix-blend-mode: normal;
+  top: calc(50% - 13px/2 - 16px);
+  margin-left: 90px;
+  font-weight: 400;
+  font-size: 10px;
+  opacity: 0.75;
+}
+
+.keterangan2 {
+  height: 21px;
+  left: 0%;
+  right: 0%;
+  line-height: 20px;
+  top: calc(50% - 21px/2 + 12px);
+  font-weight: 400;
+  font-size: 12px;
+}
+
+
+.markclarke {
+  height: 16px;
+  left: 0%;
+  right: 52.52%;
+  line-height: 15px;
+  top: calc(50% - 16px/2 - 9px);
+  font-weight: 700;
+  font-size: 12px;
+} 
+
+.keterangan3 {
+  height: 16px;
+  left: 0%;
+  right: -0.72%;
+  font-size: 9px;
+  line-height: 15px;
+  top: calc(50% - 16px/2 + 9px);
+  font-weight: 400;
+}
+
+.waktu3 {
+  height: 10px;
+  left: 84.21%;
+  right: 0%;
+  font-weight: 400;
+  font-size: 7px;
+  line-height: 10px;
+  top: calc(50% - 10px/2 - 12px);  
+  margin-left: 80px;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
+.btn-getApp {
+  border: 2px solid #234cad;
+  border-radius: 35px;
+  font-weight: 700;
+  background-color: transparent;
+  padding: 12px 30px;
+  font-size: 22px;
+}
+
+@media (min-width: 992px) {
+  .product-features1 .content {
+    padding: 90px;
   }
-  
+}
+
+@media (max-width: 460px) {
   .product-features1 .content h1 {
-    font-weight: 700;
-    line-height: 50px;
-    font-size: 45px;
+    font-size: 38px;
   }
-  
-  .product-features1 .content p {
-    font-weight: 450;
-    line-height: 26px;
-    font-size: 15px;
-  }
-  
-  .product-features1 .card-title {
-    font-weight: 700;
-    line-height: 25px;
+}
+
+@media (max-width: 300px) {
+  .product-features1 .content h1 {
     font-size: 20px;
   }
-  
-  .product-features1 h3{
-    padding-left: 25px;
-    padding-top: 15px;
-  }
-  
-  .andrewjohnson {
-    height: 27px;
-    left: 0%;
-    right: 30.8%;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 25px;
-    top: calc(50% - 27px/2 - 15px);
-  }
-  
-  .waktu {
-    height: 17px;
-    left: 84.03%;
-    right: 0%;
-    font-size: 12px;
-    line-height: 16px;
-    margin-left: 80px;
-    mix-blend-mode: normal;
-    top: calc(50% - 17px/2 - 20px);
-    font-weight: 400;
-    opacity: 0.75;
-  }
-  
-  .keterangan1 {
-    height: 27px;
-    left: 0%;
-    right: 0%;
-    line-height: 25px;
-    top: calc(50% - 27px/2 + 15px);
-    font-weight: 400;
-    font-size: 15px;
-  }
-  
-  .danielluke {
-    height: 21px;
-    left: 0%;
-    right: 52.22%;
-    font-size: 17px;
-    line-height: 20px;
-    top: calc(50% - 21px/2 - 12px);
-    font-weight: 700;
-  } 
-  
-  .waktu1 {
-    height: 13px;
-    left: 83.04%;
-    right: 0%;
-    line-height: 13px;
-    mix-blend-mode: normal;
-    top: calc(50% - 13px/2 - 16px);
-    margin-left: 90px;
-    font-weight: 400;
-    font-size: 10px;
-    opacity: 0.75;
-  }
-  
-  .keterangan2 {
-    height: 21px;
-    left: 0%;
-    right: 0%;
-    line-height: 20px;
-    top: calc(50% - 21px/2 + 12px);
-    font-weight: 400;
-    font-size: 12px;
-  }
+}
 
-  
-  .markclarke {
-    height: 16px;
-    left: 0%;
-    right: 52.52%;
-    line-height: 15px;
-    top: calc(50% - 16px/2 - 9px);
-    font-weight: 700;
-    font-size: 12px;
-  } 
+/* Product features 2  */
 
-  .keterangan3 {
-    height: 16px;
-    left: 0%;
-    right: -0.72%;
-    font-size: 9px;
-    line-height: 15px;
-    top: calc(50% - 16px/2 + 9px);
-    font-weight: 400;
-  }
-  
-  .waktu2 {
-    height: 10px;
-    left: 84.21%;
-    right: 0%;
-    font-weight: 400;
-    font-size: 7px;
-    line-height: 10px;
-    top: calc(50% - 10px/2 - 12px);  
-    margin-left: 80px;
-    mix-blend-mode: normal;
-    opacity: 0.75;
-  }
+.product-features2 .content h1 {
+  text-align: center;
+  font-weight: 700;
+  line-height: 50px;
+  font-size: 45px;
+}
 
-  .btn-outline-hero {
-    border: 2px solid #234cad;
-    border-radius: 35px;
-    font-weight: 700;
-    background-color: transparent;
-    padding: 12px 30px;
-    font-size: 22px;
-  }
-
-  @media (min-width: 992px) {
-    .product-features1 .content {
-      padding: 90px;
-    }
-  }
-  
-  @media (max-width: 460px) {
-    .product-features1 .content h1 {
-      font-size: 38px;
-    }
-  }
-  
-  @media (max-width: 300px) {
-    .product-features1 .content h1 {
-      font-size: 20px;
-    }
-  }
+.product-features2 .content p {
+  text-align: center;
+  font-weight: 450;
+  line-height: 26px;
+  font-size: 15px;
+}
