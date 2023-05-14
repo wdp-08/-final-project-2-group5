@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
+body {
+    font-family: 'Nunito';
+    overflow-x: hidden !important;
+}
+
+:root {
+    --bg-light-primary-me: #F2F6FF;
+    --primary-me: #234CAD;
+}
+
+/* SECTION A -- NAVBAR AND BANNER */
+.nav-link {
+    color: var(--primary-me);
+}
+
+.nav-link:hover {
+    color: var(--primary-me);
+    font-weight: bold;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: var(--primary-me) !important;
+}
+
+.btn-outline-primary-me {
+    border: 2px solid var(--primary-me);
+    color: var(--primary-me);
+    font-size: 1rem;
+    transition: .3s;
+}
+
+.btn-outline-primary-me:hover {
+    color: #fff;
+    background-color: var(--primary-me);
+}
+
+.btn-primary-me {
+    background-color: var(--bg-light-primary-me);
+    border: 2px solid var(--bg-light-primary-me);
+    color: var(--primary-me);
+}
+
+.btn-primary-me:hover {
+    border: 2px solid var(--primary-me);
+    background-color: var(--bg-light-primary-me);
+    color: var(--primary-me);
+}
+
+.text-primary-me {
+    color: var(--primary-me);
+}
+
+.radius-60 {
+    border-radius: 2rem !important;
+}
+
+.navbar-toggle-me {
+    height: 3.1rem;
+    outline: none;
+    border: 0;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: var(--bg-light-primary-me);
+}
+
+.navbar-toggler-icon-me {
+    display: block;
+    border-radius: 20px;
+    width: 1.4em;
+    height: .2em;
+    background-color: var(--primary-me);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.bg-primary-me {
+    background-color: var(--bg-light-primary-me);
+}
+
+
+.border-3 {
+    border: 2px solid #234CAD;
+    color: #234CAD;
+}
+.circle {
+    position: relative;
+    border: 3px solid #fff;
+    display: flex;
+    padding: 1.2rem !important;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: .74rem !important;
+    width: 40px;
+    height: 40px;
+    background-color: var(--bg-light-primary-me);
+    text-align: center;
+}
+
+.save-message {
+    width: max-content;
+    position: relative;
+    top: -60px;
+    left: 10px;
+}
+
+.message {
+    position: relative;
+    top: -30px;
+}
+
+.height-80 {
+    height: 80vh;
+}
+
+/* AKHIR SECTION A -- NAVBAR AND BANNER */
+
+
+/* ======================================================================================== */
+/* SECTION C -- ABOUT AND PRICING */
+
+.border-3 {
+    border: 2px solid var(--primary-me);
+    color: var(--primary-me);
+}
+/* SECTION D -- FOOTER AND SIGN UP */
+/* styling untuk box signup */
+.box-signup {
+    border-radius: 60px;
+    background-color: #F2F6FF;
+    color: #234CAD;
+    padding: 75px;
+}
+/* styling subjudul pada box signup */
+.subtitle-signup {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--primary-me);
+}
+/* styling pada box input email */
+.input-signup {
+    margin-top: 35px;
+    align-items: center;
+}
+/* styling pada form input */
+.input-form {
+    border-radius: 17.5px;
+    background-color: #FFFFFF;
+    padding: 10px 6px 15px 20px;
+    width: 500px;
+    height: 65px;
+}
+/* styling pada input email */
+.input-form input {
+    padding-top: 6px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: var(--primary-me);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    border: none;
+    width: 420px;
+}
+
+.input-form input:focus{
+    outline: none;
+}
+/* styling button input email */
+.input-form button {
+    background-color: var(--primary-me);
+    width: 45px;
+    height: 45px;
+    padding: 5px 12px 5px 12px;
+    color: white;
+    border-radius: 12.5px;
+}
+
+/* styling judul pada footer */
+.title-footer {
+    margin-top: 75px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 49px;
+    margin-bottom: 20px;
+}
+/* styling pada konten footer */
+.content-footer ul li {
+    list-style: none;
+    text-align: left;
+    padding: 0px;
+    text-decoration: none !important;
+    color: var(--primary-me) !important;
+}
+
+
+.color-blue {
+    color: var(--primary-me);
+}
+
+
+/* AKHIR SECTION D -- FOOTER AND SIGN UP */
+
+
+/*SECTION D SIGN UP*/
+
+/* styling untuk box signup */
+.box-signup {
+    border-radius: 60px;
+    background-color: #F2F6FF;
+    color: #234CAD;
+    padding: 75px;
+}
+/* styling untuk judul pada box signup */
+.title-signup {
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 25px;
+}
+/* styling subjudul pada box signup */
+.subtitle-signup {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #234CAD;
+}
+/* styling pada box input email */
+.input-signup {
+    margin-top: 35px;
+    align-items: center;
+}
+/* styling pada form input */
+.input-form {
+    border-radius: 17.5px;
+    background-color: #FFFFFF;
+    padding: 10px 6px 15px 20px;
+    width: 500px;
+    height: 65px;
+}
+/* styling pada input email */
+.input-form input {
+    padding-top: 6px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #234CAD;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    border: none;
+    width: 420px;
+}
+/* styling button input email */
+.input-form button {
+    background-color: #234CAD;
+    width: 45px;
+    height: 45px;
+    padding: 5px 12px 5px 12px;
+    color: white;
+    border-radius: 12.5px;
+}
