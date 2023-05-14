@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "nunito", sans-serif;
+  color: #234cad;
+}
+
+section {
+  margin-top: 150px;
+}
+
+
+.navbar {
+    position: absolute;
+    height: 50px;
+    top: 50px;
+    left: 100px;
+    right: 100px;
+    background-color: #ffff;
+    margin-bottom: 100px;
+}
+
+.navbar-nav {
+    font-size: 18px;
+    font-weight: 600;
+    top: calc(50% - 29px/2);
+}
+
+.navbar-nav .nav-link {
+    color: #234CAD;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #051c52;
+}
+
+.btn {
+    font-weight: 600;
+    color: #234CAD;
+}
+
+.btn-border {
+    width: 135px;
+    height: 50px;
+    margin-right: 25px;
+    border: 2px solid #234CAD;
+    border-radius: 25px;
+}
+
+.btn-full {
+    width: 135px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #F2F6FF;
+}
+
+.jb-banner {
+    height: 575px;
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 60px;
+    background-color: #F2F6FF;
+}
+
+.jb-txt {
+    padding-left: 70px;
+}
+
+.txt-bs {
+    padding-top: 108px;
+    line-height: 56px;
+    width: 375px;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.txt-cm {
+    width: 395px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.txt-jd{
+    font-size: 16px;
+    font-weight: 700; 
+    Line-height: 21px;
+}
+
+.txt-sj{
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 2px;
+}
+
+.btn-app {
+    Width: 200px;
+    Height: 65px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    border: 2px solid #234CAD;
+    border-radius: 32.5px;
+    font-size: 22px; 
+    line-height: 36px;
+}
+
+.card {
+    background-color: #ffff;
+    border-color: #ffff;
+    border-radius: 20px;
+}
+
+.card1 {
+    width: 75px;
+    height: 75px;
+    margin-top: 30px;
+}
+
+.card2 {
+    Width: 350px;
+    Height: 100px;
+    z-index: 2;
+}
+
+.shadow {
+    height: 150px;
+    width: 430px;
+    left: 550px;
+    top: 330px;
+    position: absolute;
+    background: linear-gradient(34.55deg, #234CAD 9.21%, rgba(35, 76, 173, 0.5) 110.31%);
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    filter: blur(67.957px);
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.card3 {
+    Width: 276px;
+    Height: 160px;
+}
+
+.card4 {
+    position: absolute;
+    Width: 350px;
+    height: 100px;
+    top: 540px;
+    margin-left: 100px;
+}
+
+.card4::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(34.55deg, #234CAD 9.21%, rgba(35, 76, 173, 0.5) 110.31%);
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    filter: blur(67.957px);
+    border-radius: 25px;
+    z-index: -1;
+}
+
+.card5 {
+    background-color: #ffff;
+    border-radius: 20px;
+    border-color: #ffff;
+    margin-left: 100px;
+    margin-top: 75px;
+}
+
+.card6 {
+    width: 75px;
+    height: 75px;
+    margin-left: 80px;
+    margin-top: 155px;
+    padding-top: 4px;
+}
+
+.card6::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: -100px;
+    background: linear-gradient(34.55deg, #234CAD 9.21%, rgba(35, 76, 173, 0.5) 110.31%);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    filter: blur(67.957px);
+    border-radius: 20px;
+    z-index: -1;
+}
+
+/* Product features 1  */
+.product-features1 .box {
+  width: 570px;
+  height: 570px;
+  border-radius: 60px;
+  padding: 19px;
+  margin: 100px 0 0 100px;
+  background-color: #F2F6FF;
+}
+
+.product-features1 .content h1 {
+  font-weight: 700;
+  line-height: 50px;
+  font-size: 45px;
+}
+
+.product-features1 .content p {
+  font-weight: 450;
+  line-height: 26px;
+  font-size: 15px;
+}
+
+.product-features1 h3{
+  padding-left: 25px;
+  padding-top: 15px;
+}
+
+.andrewjohnson {
+  height: 27px;
+  left: 0%;
+  right: 30.8%;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+
+}
+
+.waktu1 {
+  height: 17px;
+  left: 84.03%;
+  right: 0%;
+  font-size: 12px;
+  line-height: 16px;
+  margin-left: 80px;
+  mix-blend-mode: normal;
+  font-weight: 400;
+  opacity: 0.75;
+}
+
+.keterangan1 {
+  height: 27px;
+  left: 0%;
+  right: 0%;
+  line-height: 25px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.danielluke {
+  height: 21px;
+  left: 0%;
+  right: 52.22%;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 700;
+} 
+
+.waktu2 {
+  height: 13px;
+  left: 83.04%;
+  right: 0%;
+  line-height: 13px;
+  mix-blend-mode: normal;
+  margin-left: 90px;
+  font-weight: 400;
+  font-size: 10px;
+  opacity: 0.75;
+}
+
+.keterangan2 {
+  height: 21px;
+  left: 0%;
+  right: 0%;
+  line-height: 20px;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+
+.markclarke {
+  height: 16px;
+  left: 0%;
+  right: 52.52%;
+  line-height: 15px;
+  font-weight: 700;
+  font-size: 12px;
+} 
+
+.keterangan3 {
+  height: 16px;
+  left: 0%;
+  right: -0.72%;
+  font-size: 9px;
+  line-height: 15px;
+  font-weight: 400;
+}
+
+.waktu3 {
+  height: 10px;
+  left: 84.21%;
+  right: 0%;
+  font-weight: 400;
+  font-size: 7px;
+  line-height: 10px;
+  margin-left: 80px;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
+.btn-getApp {
+  border: 2px solid #234cad;
+  border-radius: 35px;
+  font-weight: 700;
+  background-color: transparent;
+  padding: 12px 30px;
+  font-size: 22px;
+}
+
+@media (min-width: 992px) {
+  .product-features1 .content {
+    padding: 90px;
+  }
+}
+
+@media (max-width: 460px) {
+  .product-features1 .content h1 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 300px) {
+  .product-features1 .content h1 {
+    font-size: 20px;
+  }
+}
+
+/* Product features 2  */
+.product-features2 .content h1 {
+  text-align: center;
+  font-weight: 700;
+  line-height: 50px;
+  font-size: 45px;
+}
+
+.product-features2 .content p {
+  text-align: center;
+  font-weight: 450;
+  line-height: 26px;
+  font-size: 15px;
+}
+
+.product-features2 .hero {
+  background-color: #f2f6ff;
+  border-radius: 60px;
+  margin-bottom: 50px;
+}
+
+.product-features2 .content {
+  padding: 0 100px 100px;
+}
+
+.spencers {
+  height: 21px;
+  left: 0%;
+  right: 34.83%;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+
+}
+
+.send {
+  height: 21px;
+  left: 0%;
+  right: 0%;
+  line-height: 21px;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.time {
+  height: 13px;
+  left: 83.48%;
+  right: 0%;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  margin-left: 80px;
+  font-family: 'Nunito';
+  font-style: normal;
+}
+
+.time2 {
+  height: 13px;
+  left: 83.48%;
+  right: 0%;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  margin-left: 100px;
+  font-family: 'Nunito';
+  font-style: normal;
+}
+
+.date {
+  height: 20px;
+  left: 0%;
+  right: 0%;
+  line-height: 21px;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.size{
+  height: 21px;
+  left: 0%;
+  right: 49.38%;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  font-family: 'Basic';
+  font-style: normal;
+}
