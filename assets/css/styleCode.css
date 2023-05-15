@@ -84,6 +84,7 @@ body {
     border: 2px solid #234CAD;
     color: #234CAD;
 }
+
 .circle {
     position: relative;
     border: 3px solid #fff;
@@ -125,6 +126,7 @@ body {
     border: 2px solid var(--primary-me);
     color: var(--primary-me);
 }
+
 /* SECTION D -- FOOTER AND SIGN UP */
 /* styling untuk box signup */
 .box-signup {
@@ -133,6 +135,7 @@ body {
     color: #234CAD;
     padding: 75px;
 }
+
 /* styling subjudul pada box signup */
 .subtitle-signup {
     text-align: center;
@@ -141,11 +144,13 @@ body {
     line-height: 26px;
     color: var(--primary-me);
 }
+
 /* styling pada box input email */
 .input-signup {
     margin-top: 35px;
     align-items: center;
 }
+
 /* styling pada form input */
 .input-form {
     border-radius: 17.5px;
@@ -154,6 +159,7 @@ body {
     width: 500px;
     height: 65px;
 }
+
 /* styling pada input email */
 .input-form input {
     padding-top: 6px;
@@ -167,9 +173,10 @@ body {
     width: 420px;
 }
 
-.input-form input:focus{
+.input-form input:focus {
     outline: none;
 }
+
 /* styling button input email */
 .input-form button {
     background-color: var(--primary-me);
@@ -188,6 +195,7 @@ body {
     line-height: 49px;
     margin-bottom: 20px;
 }
+
 /* styling pada konten footer */
 .content-footer ul li {
     list-style: none;
@@ -215,6 +223,7 @@ body {
     color: #234CAD;
     padding: 75px;
 }
+
 /* styling untuk judul pada box signup */
 .title-signup {
     text-align: center;
@@ -223,6 +232,7 @@ body {
     line-height: 56px;
     margin-bottom: 25px;
 }
+
 /* styling subjudul pada box signup */
 .subtitle-signup {
     text-align: center;
@@ -231,11 +241,13 @@ body {
     line-height: 26px;
     color: #234CAD;
 }
+
 /* styling pada box input email */
 .input-signup {
     margin-top: 35px;
     align-items: center;
 }
+
 /* styling pada form input */
 .input-form {
     border-radius: 17.5px;
@@ -244,6 +256,7 @@ body {
     width: 500px;
     height: 65px;
 }
+
 /* styling pada input email */
 .input-form input {
     padding-top: 6px;
@@ -256,6 +269,7 @@ body {
     border: none;
     width: 420px;
 }
+
 /* styling button input email */
 .input-form button {
     background-color: #234CAD;
@@ -264,4 +278,31 @@ body {
     padding: 5px 12px 5px 12px;
     color: white;
     border-radius: 12.5px;
+}
+
+.card-main{
+    overflow: hidden;
+    position: relative;
+    width: 600px;
+    height: 600px;
+    z-index: 2;
+}
+
+.card-aw{
+    position: relative;
+    margin-left: 80px;
+    margin-right: 10px;
+    width: 330px;
+}
+
+.card-jd{
+    position: absolute;
+    left: 87%;
+    width: 330px;
+    transform:translate(-50%, -50%);
+    z-index: 1;
+}
+
+.wrap-ct{
+    width: 118px;
 }
