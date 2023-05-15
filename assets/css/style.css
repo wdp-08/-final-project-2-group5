@@ -64,7 +64,7 @@ section {
 }
 
 .btn-full:hover{
-  background-color: white;
+  background-color: rgba(131, 125, 125, 0.055);
   border: 2px solid #234CAD;
 }
 
