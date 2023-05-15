@@ -14,186 +14,201 @@ section {
 
 /* navbar */
 .navbar {
-    position: absolute;
-    height: 50px;
-    top: 50px;
-    left: 100px;
-    right: 100px;
-    background-color: #ffff;
-    margin-bottom: 100px;
+  position: absolute;
+  height: 50px;
+  top: 50px;
+  left: 100px;
+  right: 100px;
+  background-color: #ffff;
+  margin-bottom: 100px;
 }
 
 .navbar-nav {
-    font-size: 18px;
-    font-weight: 600;
-    top: calc(50% - 29px/2);
+  font-size: 18px;
+  font-weight: 600;
+  top: calc(50% - 29px/2);
 }
 
 .navbar-nav .nav-link {
-    color: #234CAD;
+  color: #234CAD;
 }
 
 .navbar-nav .nav-link:hover {
-    color: #051c52;
+  color: #051c52;
 }
 
 .btn {
-    font-weight: 600;
-    color: #234CAD;
+  font-weight: 600;
+  color: #234CAD;
 }
 
 .btn-border {
-    width: 135px;
-    height: 50px;
-    margin-right: 25px;
-    border: 2px solid #234CAD;
-    border-radius: 25px;
+  width: 135px;
+  height: 50px;
+  margin-right: 25px;
+  border: 2px solid #234CAD;
+  border-radius: 25px;
+}
+
+.btn-border:hover{
+  color: #fff;
+  background-color: var(--primary-me);
 }
 
 .btn-full {
-    width: 135px;
-    height: 50px;
-    border-radius: 25px;
-    background-color: #F2F6FF;
+  width: 135px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #F2F6FF;
+}
+
+.btn-full:hover{
+  background-color: white;
+  border: 2px solid #234CAD;
 }
 
 /* banner */
 .jb-banner {
-    height: 575px;
-    margin-top: 200px;
-    margin-left: 100px;
-    margin-right: 100px;
-    border-radius: 60px;
-    background-color: #F2F6FF;
+  height: 575px;
+  margin-top: 200px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 60px;
+  background-color: #F2F6FF;
 }
 
 .jb-txt {
-    padding-left: 70px;
+  padding-left: 70px;
 }
 
 .txt-bs {
-    padding-top: 108px;
-    padding-bottom: 35px;
-    line-height: 56px;
-    font-weight: 700;
-    font-size: 48px;
+  padding-top: 108px;
+  padding-bottom: 35px;
+  line-height: 56px;
+  font-weight: 700;
+  font-size: 48px;
 }
 
 .txt-cm {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
 }
 
-.txt-jd{
-    font-size: 16px;
-    font-weight: 700; 
-    Line-height: 21px;
+.txt-jd {
+  font-size: 16px;
+  font-weight: 700;
+  Line-height: 21px;
 }
 
-.txt-sj{
-    font-size: 12px;
-    font-weight: 400;
-    padding-top: 2px;
+.txt-sj {
+  font-size: 12px;
+  font-weight: 400;
+  padding-top: 2px;
 }
 
 .btn-app {
-    Width: 200px;
-    Height: 65px;
-    margin-top: 40px;
-    margin-bottom: 100px;
-    border: 2px solid #234CAD;
-    border-radius: 32.5px;
-    font-size: 22px; 
-    line-height: 36px;
+  Width: 200px;
+  Height: 65px;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  border: 2px solid #234CAD;
+  border-radius: 32.5px;
+  font-size: 22px;
+  line-height: 36px;
+}
+
+.btn-app:hover{
+  color: #fff;
+  background-color: var(--primary-me);
 }
 
 .card {
-    background-color: #ffff;
-    border-color: #ffff;
-    border-radius: 20px;
+  background-color: #ffff;
+  border-color: #ffff;
+  border-radius: 20px;
 }
 
 .card1 {
-    width: 75px;
-    height: 75px;
-    margin-top: 30px;
+  width: 75px;
+  height: 75px;
+  margin-top: 30px;
 }
 
 .card2 {
-    Width: 350px;
-    Height: 100px;
-    z-index: 2;
+  Width: 350px;
+  Height: 100px;
+  z-index: 2;
 }
 
 .shadow {
-    height: 150px;
-    width: 430px;
-    left: 550px;
-    top: 330px;
-    position: absolute;
-    background: linear-gradient(34.55deg, #234CAD 9.21%, rgba(35, 76, 173, 0.5) 110.31%);
-    mix-blend-mode: normal;
-    opacity: 0.1;
-    filter: blur(67.957px);
-    border-radius: 20px;
-    z-index: 1;
+  height: 150px;
+  width: 430px;
+  left: 550px;
+  top: 330px;
+  position: absolute;
+  background: linear-gradient(34.55deg, #234CAD 9.21%, rgba(35, 76, 173, 0.5) 110.31%);
+  mix-blend-mode: normal;
+  opacity: 0.1;
+  filter: blur(67.957px);
+  border-radius: 20px;
+  z-index: 1;
 }
 
 .card3 {
-    Width: 276px;
-    Height: 160px;
+  Width: 276px;
+  Height: 160px;
 }
 
 .card4 {
-    position: absolute;
-    Width: 350px;
-    height: 100px;
-    top: 540px;
-    margin-left: 100px;
+  position: absolute;
+  Width: 350px;
+  height: 100px;
+  top: 540px;
+  margin-left: 100px;
 }
 
 .card4::after {
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(34.55deg, #234CAD 9.21%, rgba(35, 76, 173, 0.5) 110.31%);
-    mix-blend-mode: normal;
-    opacity: 0.1;
-    filter: blur(67.957px);
-    border-radius: 25px;
-    z-index: -1;
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(34.55deg, #234CAD 9.21%, rgba(35, 76, 173, 0.5) 110.31%);
+  mix-blend-mode: normal;
+  opacity: 0.1;
+  filter: blur(67.957px);
+  border-radius: 25px;
+  z-index: -1;
 }
 
 .card5 {
-    background-color: #ffff;
-    border-radius: 20px;
-    border-color: #ffff;
-    margin-left: 100px;
-    margin-top: 75px;
+  background-color: #ffff;
+  border-radius: 20px;
+  border-color: #ffff;
+  margin-left: 100px;
+  margin-top: 75px;
 }
 
 .card6 {
-    width: 75px;
-    height: 75px;
-    margin-left: 80px;
-    margin-top: 155px;
-    padding-top: 4px;
+  width: 75px;
+  height: 75px;
+  margin-left: 80px;
+  margin-top: 155px;
+  padding-top: 4px;
 }
 
 .card6::after {
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: -100px;
-    background: linear-gradient(34.55deg, #234CAD 9.21%, rgba(35, 76, 173, 0.5) 110.31%);
-    mix-blend-mode: normal;
-    opacity: 0.5;
-    filter: blur(67.957px);
-    border-radius: 20px;
-    z-index: -1;
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: -100px;
+  background: linear-gradient(34.55deg, #234CAD 9.21%, rgba(35, 76, 173, 0.5) 110.31%);
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  filter: blur(67.957px);
+  border-radius: 20px;
+  z-index: -1;
 }
 
 /* Product features 1  */
@@ -218,7 +233,7 @@ section {
   font-size: 15px;
 }
 
-.product-features1 h3{
+.product-features1 h3 {
   padding-left: 25px;
   padding-top: 15px;
 }
@@ -261,7 +276,7 @@ section {
   font-size: 17px;
   line-height: 20px;
   font-weight: 700;
-} 
+}
 
 .waktu2 {
   height: 13px;
@@ -292,7 +307,7 @@ section {
   line-height: 15px;
   font-weight: 700;
   font-size: 12px;
-} 
+}
 
 .keterangan3 {
   height: 16px;
@@ -419,7 +434,7 @@ section {
   font-size: 12px;
 }
 
-.size{
+.size {
   height: 21px;
   left: 0%;
   right: 49.38%;
@@ -428,4 +443,47 @@ section {
   line-height: 21px;
   font-family: 'Basic';
   font-style: normal;
+}
+
+/* footer */
+.footer {
+  margin-top: 150px;
+  margin-bottom: 75px;
+}
+
+.ft-menu{
+  padding-left: 7rem;
+}
+
+.wrap{
+  width: 163px;
+}
+
+.txt-fj {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 49px;
+  margin-bottom: 15px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.txt-fs{
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  padding: 0;
+  text-align: left;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #234CAD;
+  ;
+}
+
+.li{
+  margin-bottom: 5px;
+}
+
+ul {
+  line-height: 1;
 }
