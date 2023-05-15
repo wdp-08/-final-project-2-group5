@@ -14,13 +14,13 @@ section {
 
 /* navbar */
 .navbar {
-  position: absolute;
+  position: relative;
   height: 50px;
   top: 50px;
-  left: 100px;
-  right: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
   background-color: #ffff;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 
 .navbar-nav {
@@ -35,6 +35,7 @@ section {
 
 .navbar-nav .nav-link:hover {
   color: #051c52;
+  text-shadow: 1px 1px;
 }
 
 .btn {
@@ -67,6 +68,37 @@ section {
   border: 2px solid #234CAD;
 }
 
+.cl-navbar{
+  padding: 20px 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: #F2F6FF;
+}
+
+.btn-full-me {
+  padding: 10px 40px;
+  border-radius: 25px;
+  background-color: #ffff;
+}
+
+.btn-full-me:hover{
+  background-color: #ffff;
+  border: 2px solid #234CAD;
+}
+
+.btn-border-me {
+  padding: 10px 40px;
+  margin-right: 25px;
+  border: 2px solid #234CAD;
+  border-radius: 25px;
+}
+
+.btn-border-me:hover{
+  color: #fff;
+  background-color: var(--primary-me);
+}
+
+
 /* banner */
 .jb-banner {
   height: 575px;
@@ -93,6 +125,10 @@ section {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
+}
+
+.wrap-cm{
+  width: 304px;
 }
 
 .txt-jd {
@@ -145,7 +181,7 @@ section {
   height: 150px;
   width: 430px;
   left: 550px;
-  top: 330px;
+  top: 380px;
   position: absolute;
   background: linear-gradient(34.55deg, #234CAD 9.21%, rgba(35, 76, 173, 0.5) 110.31%);
   mix-blend-mode: normal;
@@ -164,7 +200,7 @@ section {
   position: absolute;
   Width: 350px;
   height: 100px;
-  top: 540px;
+  top: 590px;
   margin-left: 100px;
 }
 
@@ -339,6 +375,11 @@ section {
   font-size: 22px;
 }
 
+.btn-getApp:hover{
+  color: #fff;
+  background-color: var(--primary-me);
+}
+
 @media (min-width: 992px) {
   .product-features1 .content {
     padding: 90px;
@@ -480,10 +521,10 @@ section {
   ;
 }
 
-.li{
+.ft-li{
   margin-bottom: 5px;
 }
 
-ul {
+.ft-ul {
   line-height: 1;
 }
