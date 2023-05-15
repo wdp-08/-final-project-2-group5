@@ -17,29 +17,50 @@
     <!-- section A-->
     <!-- Header -->
     <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-            <img src="assets/icons/btn-menu.png" alt="menu">
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link" style="margin-right: 30px;" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" style="margin-right: 30px;" href="#">Product</a>
-                    <a class="nav-link" style="margin-right: 30px;" href="#">About</a>
-                    <a class="nav-link" style="margin-right: 130px;" href="#">Contact</a>
-                </div>
+            <img src="assets/icons/btn-menu.png" alt="menu" data-bs-toggle="collapse" href="#collapseMenu" role="button"
+                aria-expanded="false" aria-controls="collapseMenu">
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" style="margin-right: 30px; margin-left: 140px;" aria-current="page" href="#">Home</a>
+                <a class="nav-link" style="margin-right: 30px;" href="#">Product</a>
+                <a class="nav-link" style="margin-right: 30px;" href="#">About</a>
+                <a class="nav-link" style="margin-right: 0px;" href="#">Contact</a>
             </div>
-            <form class="d-flex">
-                <button class="btn btn-border btn-outline-primary" type="submit">Login</button>
-                <button class="btn btn-full" type="submit">Sign Up</button>
-            </form>
         </div>
+        <form class="d-flex">
+            <button class="btn btn-border btn-outline-primary" type="submit">Login</button>
+            <button class="btn btn-full" type="submit">Sign Up</button>
+        </form>
     </nav>
+
+    <div class="collapse cl-navbar d-lg-none" id="collapseMenu">
+        <div class="card-body">
+            <ul class="list-unstyled">
+                <li>
+                    <a href="#" class="txt-fs">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="txt-fs">Product</a>
+                </li>
+                <li>
+                    <a href="#" class="txt-fs">About</a>
+                </li>
+                <li>
+                    <a href="#" class="txt-fs">Contact</a>
+                </li>
+            </ul>
+            <button class="btn btn-border-me btn-outline-primary" type="submit">Login</button>
+            <button class="btn btn-full-me" type="submit">Sign Up</button>
+        </div>
+    </div>
+
 
     <!-- banner -->
     <section id="banner" class="jumbotron jb-banner">
         <div class="row">
             <div class="jb-txt col-md-5">
                 <h2 class="txt-bs">Business Communications Reinvented</h2>
-                <p class="txt-cm">Start communicating with your business team more efficiently with our app.</p>
+                <p class="txt-cm wrap-cm">Start communicating with your business team more efficiently with our app.</p>
                 <button class="btn btn-app btn-outline-primary" type="submit">Get the app</button>
             </div>
             <div class="jd-txt1 col-md-3">
@@ -619,64 +640,57 @@
         <footer class="footer bg-white">
             <div class="ft-menu container">
                 <div class="row">
-                    <div class="wp-menu col-md-3">
-                        <h5 class="txt-fj">Startup.io</h5>
+                    <div class="wp-menu col-md-3 ">
+                        <h5 class="txt-fj ">Startup.io</h5>
                         <p class="wrap">© 2020 - All rights reserved</p>
                     </div>
                     <div class="wp-menu col-md-3">
                         <h5 class="txt-fj">Product</h5>
-                        <ul class="list-unstyled">
-                            <li>
-                                <a href="#" class="txt-fs">
-                                    Benefits</a>
+                        <ul class="list-unstyled ft-ul">
+                            <li class="ft-li">
+                                <a href="#" class="txt-fs">Benefits</a>
                             </li>
                         </ul>
-                        <ul class="list-unstyled">
-                            <li>
-                                <a href="#" class="txt-fs">
-                                    Feedback</a>
+                        <ul class="list-unstyled ft-ul">
+                            <li class="ft-li">
+                                <a href="#" class="txt-fs">Feedback</a>
                             </li>
                         </ul>
-                        <ul class="list-unstyled">
-                            <li>
-                                <a href="#" class="txt-fs">
-                                    Features</a>
+                        <ul class="list-unstyled ft-ul">
+                            <li class="ft-li">
+                                <a href="#" class="txt-fs">Features</a>
                             </li>
                         </ul>
                     </div>
                     <div class="wp-menu col-md-3">
                         <h5 class="txt-fj">About</h5>
-                        <ul class="list-unstyled">
-                            <li>
-                                <a href="#" class="txt-fs">
-                                    Company</a>
+                        <ul class="list-unstyled ft-ul">
+                            <li class="ft-li">
+                                <a href="#" class="txt-fs">Company</a>
                             </li>
                         </ul>
-                        <ul class="list-unstyled">
-                            <li>
-                                <a href="#" class="txt-fs">
-                                    Team</a>
+                        <ul class="list-unstyled ft-ul">
+                            <li class="ft-li">
+                                <a href="#" class="txt-fs">Team</a>
                             </li>
                         </ul>
                     </div>
                     <div class="wp-menu col-md-3">
                         <h5 class="txt-fj">Support</h5>
-                        <ul class="list-unstyled">
-                            <li>
-                                <a href="#" class="txt-fs">
-                                    Get help</a>
+                        <ul class="list-unstyled ft-ul">
+                            <li class="ft-li">
+                                <a href="#" class="txt-fs">Get help</a>
                             </li>
                         </ul>
-                        <ul class="list-unstyled">
-                            <li>
-                                <a href="#" class="txt-fs">
-                                    Terms of service</a>
+                        <ul class="list-unstyled ft-ul">
+                            <li class="ft-li">
+                                <a href="#" class="txt-fs">Terms of service</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
-        </footer>
+        </footer>        
 
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
